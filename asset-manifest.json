@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-landingpage/static/css/main.5211f21f.chunk.css",
+    "main.js": "/react-landingpage/static/js/main.36dd0885.chunk.js",
+    "main.js.map": "/react-landingpage/static/js/main.36dd0885.chunk.js.map",
+    "runtime-main.js": "/react-landingpage/static/js/runtime-main.531ce44c.js",
+    "runtime-main.js.map": "/react-landingpage/static/js/runtime-main.531ce44c.js.map",
+    "static/js/2.c63cbc8a.chunk.js": "/react-landingpage/static/js/2.c63cbc8a.chunk.js",
+    "static/js/2.c63cbc8a.chunk.js.map": "/react-landingpage/static/js/2.c63cbc8a.chunk.js.map",
+    "static/js/3.2731e849.chunk.js": "/react-landingpage/static/js/3.2731e849.chunk.js",
+    "static/js/3.2731e849.chunk.js.map": "/react-landingpage/static/js/3.2731e849.chunk.js.map",
+    "index.html": "/react-landingpage/index.html",
+    "static/css/main.5211f21f.chunk.css.map": "/react-landingpage/static/css/main.5211f21f.chunk.css.map",
+    "static/js/2.c63cbc8a.chunk.js.LICENSE.txt": "/react-landingpage/static/js/2.c63cbc8a.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/react-landingpage/static/media/banner3.9185c82d.png",
+    "static/media/card-home1.6620e9ac.png": "/react-landingpage/static/media/card-home1.6620e9ac.png",
+    "static/media/idcore.a9326d07.png": "/react-landingpage/static/media/idcore.a9326d07.png",
+    "static/media/instagram.a06f43d0.png": "/react-landingpage/static/media/instagram.a06f43d0.png",
+    "static/media/partner.52453344.png": "/react-landingpage/static/media/partner.52453344.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.531ce44c.js",
+    "static/js/2.c63cbc8a.chunk.js",
+    "static/css/main.5211f21f.chunk.css",
+    "static/js/main.36dd0885.chunk.js"
+  ]
+}
