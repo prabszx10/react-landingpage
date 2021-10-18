@@ -1,0 +1,19 @@
+.navbarPad{
+    padding: 10px 12px;
+    background-color: #024089;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    .brand{
+        width: 143px;
+    }
+
+    .nav-link{
+        color:red;
+    }
+
+    .icon{
+        width: 14px;
+    }
+}

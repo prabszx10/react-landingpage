@@ -1,0 +1,409 @@
+%judul {
+    h1 {
+        text-align: center;
+        padding: 4vw 0;
+        color: #1b5394;
+        font-weight: bold;
+        font-size: 4vw;
+    }
+}
+
+%center {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.layanan {
+    @extend %judul;
+
+    .isi {
+        position: relative;
+        height: 40vw;
+
+        .grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 2vw;
+            width: 90%;
+            @extend %center;
+
+            .grid-item {
+                text-align: center;
+
+                .card {
+                    background-color: white;
+                    padding: 2vw;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+                    img {
+                        width: 100%;
+                    }
+
+
+
+                    p {
+                        margin-top: 10px;
+                        font-size: 1vw;
+                    }
+
+                    .btn {
+                        font-size: 1vw;
+                        font-weight: bold;
+                        margin: 0 auto;
+                        width: 60%;
+                        padding: 10px 20px;
+                        color: white;
+                        background-color: #fa841a;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+.keunggulan {
+    @extend %judul;
+
+    .isi {
+        margin-top: 2vw;
+        background-image: url("../images/banner2.png");
+        height: 263px;
+        background-size: cover;
+        position: relative;
+
+        .grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            width: 50%;
+            height: max-content;
+            @extend %center;
+
+            .grid-item {
+                padding: 25px;
+                text-align: center;
+                color: white;
+
+                p {
+                    margin-top: 20px;
+                    font-size: 1.3vw;
+                }
+            }
+        }
+    }
+
+
+
+}
+
+.partner {
+    @extend %judul;
+
+    .isi {
+        margin-top: 7vw;
+        position: relative;
+
+        .grid {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-gap: 3px;
+            width: 80%;
+            height: max-content;
+            @extend %center;
+
+            .grid-item {
+                text-align: center;
+            }
+        }
+
+
+    }
+}
+
+.kontak {
+    margin-bottom: 5vw;
+    margin-top: 15vw;
+    height: 250px;
+    position: relative;
+
+    .imgBg {
+        position: absolute;
+        background-image: url("../images/banner3.png");
+        width: 100%;
+        height: 100%;
+    }
+
+    .front {
+        position: absolute;
+        background-color: #fa821aa6;
+        width: 100%;
+        padding: 70px;
+        height: 100%;
+
+        .container {
+            text-align: center;
+
+            h2 {
+                color: white;
+                font-size: 3vw;
+                text-align: center;
+            }
+
+            .btn{
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #dfeeff;
+    height: 217px;
+    padding: 20px;
+
+    img {
+        width: 301px;
+    }
+
+    .info {
+        float: right;
+
+        .info-items {
+            margin-bottom: 10px;
+
+            .icon {
+                float: left;
+                height: 25px;
+            }
+
+            p {
+                margin-left: 30px;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width:1281px) {
+    .layanan {
+        .isi {
+            height: 45vw;
+        }
+    }
+}
+
+@media (max-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+}
+
+@media (max-width:961px) {
+    .layanan {
+        .isi {
+            height: 48vw;
+
+        }
+    }
+
+    .keunggulan {
+        .isi {
+            .grid {
+                width: 70%;
+
+                img {
+                    height: 8vw;
+                }
+            }
+        }
+    }
+
+    .kontak {
+        margin-bottom: 5vw;
+        margin-top: 5vw;
+    }
+
+
+    .partner {
+        .isi {
+            width: 100%;
+            height: 40vw;
+            margin-top: 0;
+            margin-bottom: 0;
+
+            .grid {
+                display: grid;
+                grid-template-columns: auto auto;
+                grid-template-columns: auto auto;
+                grid-gap: 20px;
+            }
+
+
+        }
+    }
+
+    footer {
+        img {
+            display: none;
+        }
+
+        .info {
+            float: none;
+            text-align: center;
+
+            .info-items {
+                margin-bottom: 0;
+
+
+                .icon {
+                    float: none;
+                    display: inline-block;
+                    height: 2vw;
+                }
+
+                p {
+                    display: inline-block;
+                    margin-left: 10px;
+                    font-size: 2vw;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:641px) {
+
+    .layanan {
+        width: 100%;
+        height: 250vw;
+        .isi{
+            .grid{
+                grid-template-columns: auto;
+                grid-gap: 2vw;
+                width: 70%;
+                .grid-item{
+                    .card{
+                        p{
+                            font-size: 2vw;
+                        }
+                        h3 {
+                            font-size: 4vw;
+                        }
+
+                        .btn{
+                            font-size: 2vw;
+                        }
+                    }
+                }
+            }
+        }
+        
+
+        
+    }
+
+    .partner {
+        margin-bottom: 10vw;
+        .isi {
+            height: 50vw;
+        }
+    }
+
+    .keunggulan {
+        h1 {
+            margin-top: 10vw;
+        }
+    }
+}
+
+@media (max-width:481px) {
+    .keunggulan {
+        margin-top: 28vw;
+    
+        .isi {
+            margin-top: 4vw;
+            background-image: url("../images/banner2.png");
+            height: 90vw;
+            background-size: cover;
+            position: relative;
+    
+            .grid {
+                padding: 20px;
+                display: grid;
+                grid-template-columns: auto;
+                width: 50%;
+    
+                .grid-item {
+                    padding: 10px;
+                    img {
+                        height: 10vw;
+                    }
+    
+                    p {
+                        margin-top: 10px;
+                        font-size: 2vw;
+                    }
+                }
+            }
+        }
+    
+    
+    
+    } 
+
+
+    .partner {
+        .isi {
+            width: 100%;
+            height: 70vw;
+            margin-top: 0;
+            margin-bottom: 0;
+
+            img{
+                height: 30vw;
+            }
+        }
+    }
+
+    .kontak {
+        .front {
+            padding: 12vw 0;
+            .container {
+                h2 {
+                    font-size: 5vw;
+                }
+            }
+        }
+    }
+
+    footer {
+
+        .info {
+       
+
+            .info-items {
+
+                .icon {
+                    float: none;
+                    display: inline-block;
+                    height: 4vw;
+                }
+
+                p {
+                    display: inline-block;
+                    margin-left: 10px;
+                    font-size: 4vw;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:320px) {
+    /* smartphones, iPhone, portrait 480x320 phones */
+}
